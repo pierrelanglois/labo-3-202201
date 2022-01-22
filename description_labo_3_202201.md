@@ -94,7 +94,7 @@ Inspectez le contenu du fichier [top_labo_3.vhd](sources/top_labo_3.vhd) :
 - Les ports `alarme` et `ouvrir` sont reliés aux LED(1:0).
 - L'affichage quadruple à 7 segments affiche les caractères placés sur le port `message`.
 
-## Partie 1 : Conception du cadenas
+## Partie 1 : Conception du cadenas : spécifications de base
 
 ### Spécifications de base
 
@@ -127,7 +127,7 @@ Modifiez le banc d'essai dans le fichier [cadenas_labo_3_tb.vhd](sources/cadenas
 - Une brève explication des vérifications de votre banc d'essai dans le fichier [rapport.md](rapport.md);
 - Votre fichier [cadenas_labo_3_tb.vhd](sources/cadenas_labo_3_tb.vhd) modifié;
 
-## Partie 3 : Spécification avancée
+## Partie 3 : Conception du cadenas : spécifications avancées
 
 Ajoutez les spécifications suivantes à votre cadenas :
 - Quand le cadenas est débarré, on peut modifier la combinaison avec les étapes suivantes :
@@ -155,7 +155,7 @@ Implémentez votre cadenas modifié sur la carte.
 
 ** Pas clair comment les boni s'agencent entre eux **
 
-### 3a. Combinaison obfusquée
+### 4a. Combinaison obfusquée
 
 Dans les spécifications des parties, une utilisatrice astucieuse pourrait deviner la combinaison en essayant successivement tous les boutons en observant la séquence des états. Ajoutez un mode de fonctionnement obfusqué activé par une valeur de "01" sur l'entrée `mode` (le fonctionnement normal des parties 1 et 3 doit se faire quand le port `mode` a les autres valeurs.
 
@@ -167,7 +167,7 @@ En mode obfusqué :
 
 Expliquez tous vos changements dans votre rapport.
 
-### 3b. Ajout d'une alarme pour code incorrect
+### 4b. Ajout d'une alarme pour code incorrect
 
 Dès qu'une erreur est faite dans la combinaison, le port `alarme` doit prendre la valeur '1', ce qui fait allumer la LED correspondante. Dans ce cas, la seule façon de reprendre l'opération du cadenas est d'appuyer sur le bouton du centre relié à `reset`.
 
@@ -195,8 +195,8 @@ Partie 2 : Banc d'essai de base | 3
 Partie 3 : Spécifications avancées | 8
 Qualité, lisibilité et élégance du code : alignement, choix des identificateurs, qualité et pertinence des commentaires, respect des consignes de remise incluant les noms des fichiers, orthographe, etc. | 2
 **Pleine réussite du labo** | **17**
-Bonus partie 3a. | 1
-Bonus partie 3b. | 2
+Bonus partie 4a. | 1
+Bonus partie 4b. | 2
 **Maximum possible sur 20 points** | **20**
 
 
