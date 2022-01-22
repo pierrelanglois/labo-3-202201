@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Généré par Microsoft Visio, SVG Export machine_etats_de_base.svg Page 1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="6.42173in" height="3.02685in"
+		viewBox="0 0 462.364 217.933" xml:space="preserve" color-interpolation-filters="sRGB" class="st8">
+	<title>portesLogiques</title>
+	<v:documentProperties v:langID="1033" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvConvertTheme"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;marker-end:url(#mrkr13-4);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st2 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.28571428571429}
+		.st3 {fill:#000000;font-family:Arial;font-size:0.833336em}
+		.st4 {font-size:1em}
+		.st5 {marker-end:url(#mrkr13-31);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.72}
+		.st6 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.22222222222222}
+		.st7 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st8 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend13">
+			<path d="M 3 1 L 0 0 L 3 -1 L 3 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr13-4" class="st2" v:arrowType="13" v:arrowSize="1" v:setback="10.5" refX="-10.5" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-3.5,-3.5) "/>
+		</marker>
+		<marker id="mrkr13-31" class="st6" v:arrowType="13" v:arrowSize="2" v:setback="13" refX="-13" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend13" transform="scale(-4.5,-4.5) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Page 1</title>
+		<v:pageProperties v:drawingScale="1" v:pageScale="1" v:drawingUnits="19" v:shadowOffsetX="9" v:shadowOffsetY="-9"/>
+		<g id="shape109-1" v:mID="109" v:groupContext="shape" transform="translate(310.395,-19.0018)">
+			<title>Feuille.109</title>
+			<desc>E_03 ouvrir &#60;= ‘0’ alarme &#60;= ‘0’</desc>
+			<v:textBlock v:margins="rect(1,1,1,1)"/>
+			<v:textRect cx="36" cy="181.933" width="72" height="72"/>
+			<ellipse cx="36" cy="181.933" rx="36" ry="36" class="st1"/>
+			<text x="24.32" y="172.93" class="st3" v:langID="3084"><v:paragraph v:horizAlign="1"/><v:tabList/>E_03<v:newlineChar/><tspan
+						x="9.88" dy="1.2em" class="st4">ouvrir &#60;= </tspan>‘0’<v:newlineChar/><tspan x="7.1" dy="1.2em"
+						class="st4">alarme &#60;= </tspan>‘0’</text>		</g>
+		<g id="shape110-8" v:mID="110" v:groupContext="shape" transform="translate(382.395,-127.002)">
+			<title>Feuille.110</title>
+			<desc>E_02 ouvrir &#60;= ‘0’ alarme &#60;= ‘0’</desc>
+			<v:textBlock v:margins="rect(1,1,1,1)"/>
+			<v:textRect cx="36" cy="181.933" width="72" height="72"/>
+			<ellipse cx="36" cy="181.933" rx="36" ry="36" class="st1"/>
+			<text x="24.32" y="172.93" class="st3" v:langID="3084"><v:paragraph v:horizAlign="1"/><v:tabList/>E_02<v:newlineChar/><tspan
+						x="9.88" dy="1.2em" class="st4">ouvrir &#60;= </tspan>‘0’<v:newlineChar/><tspan x="7.1" dy="1.2em"
+						class="st4">alarme &#60;= </tspan>‘0’</text>		</g>
+		<g id="shape111-14" v:mID="111" v:groupContext="shape" transform="translate(238.395,-127.002)">
+			<title>Feuille.111</title>
+			<desc>E_01 ouvrir &#60;= ‘0’ alarme &#60;= ‘0’</desc>
+			<v:textBlock v:margins="rect(1,1,1,1)"/>
+			<v:textRect cx="36" cy="181.933" width="72" height="72"/>
+			<ellipse cx="36" cy="181.933" rx="36" ry="36" class="st1"/>
+			<text x="24.32" y="172.93" class="st3" v:langID="3084"><v:paragraph v:horizAlign="1"/><v:tabList/>E_01<v:newlineChar/><tspan
+						x="9.88" dy="1.2em" class="st4">ouvrir &#60;= </tspan>‘0’<v:newlineChar/><tspan x="7.1" dy="1.2em"
+						class="st4">alarme &#60;= </tspan>‘0’</text>		</g>
+		<g id="shape112-20" v:mID="112" v:groupContext="shape" transform="translate(74.1454,-127.002)">
+			<title>Feuille.112</title>
+			<desc>E_00 ouvrir &#60;= ‘0’ alarme &#60;= ‘1’</desc>
+			<v:textBlock v:margins="rect(1,1,1,1)"/>
+			<v:textRect cx="36" cy="181.933" width="72" height="72"/>
+			<ellipse cx="36" cy="181.933" rx="36" ry="36" class="st1"/>
+			<text x="24.32" y="172.93" class="st3" v:langID="3084"><v:paragraph v:horizAlign="1"/><v:tabList/>E_00<v:newlineChar/><tspan
+						x="9.88" dy="1.2em" class="st4">ouvrir &#60;= </tspan>‘0’<v:newlineChar/><tspan x="7.1" dy="1.2em"
+						class="st4">alarme &#60;= </tspan>‘1’</text>		</g>
+		<g id="shape113-26" v:mID="113" v:groupContext="shape" transform="translate(137.145,-186.627)">
+			<title>Line-curve connector.113</title>
+			<desc>Si bouton(0) = ‘1’</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)"/>
+			<v:textRect cx="54.6037" cy="193.377" width="86.71" height="13.5"/>
+			<path d="M0 217.93 L16.61 211.51 L33.32 207.41 L50.15 205.64 L67.07 206.19 L84.1 209.07 L101.24 214.28 L101.58 214.42"
+					class="st5"/>
+			<rect v:rectContext="textBkgnd" x="16.6641" y="187.377" width="75.8795" height="12.0001" class="st7"/>
+			<text x="16.66" y="196.38" class="st3" v:langID="3084"><v:paragraph v:horizAlign="1"/><v:tabList/>Si bouton(0) = ‘1’</text>		</g>
+		<g id="shape114-34" v:mID="114" v:groupContext="shape" transform="translate(-5.34095,297.1) rotate(-127.999)">
+			<title>Line-curve connector.114</title>
+			<desc>Si bouton(0) = ‘1’</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)"/>
+			<v:textRect cx="46.4615" cy="242.81" width="96.82" height="20.0036" transform="rotate(127.999)"/>
+			<path d="M0 217.93 L15.55 209.35 L30.46 203.81 L44.72 201.3 L58.35 201.83 L71.33 205.4 L83.67 212 L83.96 212.22"
+					class="st5"/>
+			<rect v:rectContext="textBkgnd" x="124.797" y="-192.097" width="75.8795" height="12.0001" transform="rotate(127.999)"
+					class="st7"/>
+			<text x="124.8" y="-183.1" transform="rotate(127.999)" class="st3" v:langID="3084"><v:paragraph v:horizAlign="1"/><v:tabList/>Si bouton(0) = ‘1’</text>		</g>
+		<g id="shape115-41" v:mID="115" v:groupContext="shape" transform="translate(301.395,-186.627)">
+			<title>Line-curve connector.115</title>
+			<desc>Si bouton(0) = ‘1’</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)"/>
+			<v:textRect cx="46.0992" cy="197.333" width="92.32" height="20.0036"/>
+			<path d="M0 217.93 L13.55 211.6 L27.1 207.52 L40.65 205.67 L54.2 206.07 L67.75 208.72 L81.3 213.61 L81.62 213.77"
+					class="st5"/>
+			<rect v:rectContext="textBkgnd" x="8.1594" y="191.334" width="75.8795" height="12.0001" class="st7"/>
+			<text x="8.16" y="200.33" class="st3" v:langID="3084"><v:paragraph v:horizAlign="1"/><v:tabList/>Si bouton(0) = ‘1’</text>		</g>
+		<g id="shape116-48" v:mID="116" v:groupContext="shape" transform="translate(223.47,-6.5315) rotate(-63.4349) scale(-1,1)">
+			<title>Line-curve connector.116</title>
+			<desc>Si bouton(0) = ‘1’</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)"/>
+			<v:textRect cx="36.4513" cy="193.102" width="97.26" height="20.0036" transform="rotate(63.4349)"/>
+			<path d="M0 217.93 L13.64 226.41 L26.71 231.93 L39.19 234.47 L51.09 234.05 L62.42 230.66 L73.16 224.31 L73.43 224.07"
+					class="st5"/>
+			<rect v:rectContext="textBkgnd" x="-194.354" y="112.961" width="75.8795" height="12.0001" transform="rotate(-63.4349)"
+					class="st7"/>
+			<text x="118.47" y="121.96" transform="rotate(-63.4349) scale(-1,1)" class="st3" v:langID="3084"><v:paragraph
+						v:horizAlign="1"/><v:tabList/>Si bouton(0) = ‘1’</text>		</g>
+		<g id="shape117-55" v:mID="117" v:groupContext="shape" transform="translate(34.4841,-189.666) rotate(3.17983)">
+			<title>Line-curve connector.117</title>
+			<desc>reset (état initial)</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)"/>
+			<v:textRect cx="7.71276" cy="234.132" width="58.4" height="32.0037" transform="rotate(-3.17983)"/>
+			<path d="M0 217.93 L8.82 211.8 L17.64 207.74 L26.45 205.77 L35.27 205.87 L44.09 208.06 L52.91 212.32 L53.2 212.53"
+					class="st5"/>
+			<rect v:rectContext="textBkgnd" x="-29.7396" y="222.199" width="48.9067" height="23.9999" transform="rotate(-3.17983)"
+					class="st7"/>
+			<text x="-16.4" y="231.2" transform="rotate(-3.17983)" class="st3" v:langID="3084"><v:paragraph v:horizAlign="1"/><v:tabList/>reset<v:newlineChar/><tspan
+						x="-29.74" dy="1.2em" class="st4">(état initial)</tspan></text>		</g>
+		<g id="shape123-63" v:mID="123" v:groupContext="shape" transform="translate(166.395,-19.0018)">
+			<title>Feuille.123</title>
+			<desc>E_04 ouvrir &#60;= ‘1’ alarme &#60;= ‘0’</desc>
+			<v:textBlock v:margins="rect(1,1,1,1)"/>
+			<v:textRect cx="36" cy="181.933" width="72" height="72"/>
+			<ellipse cx="36" cy="181.933" rx="36" ry="36" class="st1"/>
+			<text x="24.32" y="172.93" class="st3" v:langID="3084"><v:paragraph v:horizAlign="1"/><v:tabList/>E_04<v:newlineChar/><tspan
+						x="9.88" dy="1.2em" class="st4">ouvrir &#60;= </tspan>‘1’<v:newlineChar/><tspan x="7.1" dy="1.2em"
+						class="st4">alarme &#60;= </tspan>‘0’</text>		</g>
+		<g id="shape124-69" v:mID="124" v:groupContext="shape" transform="translate(319.395,-31.3768) scale(-1,1)">
+			<title>Line-curve connector.124</title>
+			<desc>Si bouton(0) = ‘1’</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)"/>
+			<v:textRect cx="44.3336" cy="239.308" width="106.67" height="20.0036"/>
+			<path d="M0 217.93 L16.21 224.25 L32.43 227.79 L48.64 228.55 L64.85 226.54 L81.06 221.76 L81.39 221.61" class="st5"/>
+			<rect v:rectContext="textBkgnd" x="6.39386" y="233.308" width="75.8795" height="12.0001" class="st7"/>
+			<text x="-82.27" y="242.31" transform="scale(-1,1)" class="st3" v:langID="3084"><v:paragraph v:horizAlign="1"/><v:tabList/>Si bouton(0) = ‘1’</text>		</g>
+	</g>
+</svg>
