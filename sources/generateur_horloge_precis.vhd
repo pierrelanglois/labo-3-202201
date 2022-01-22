@@ -31,9 +31,8 @@ begin
     
     assert real(freq_in) / real(freq_out) / 2.0 <= real(natural'high)
         report "Le rapport des fréquences est trop élevé, > " & integer'image(natural'high) & "." severity failure;
-    assert freq_in >= 2 * freq_out report
-        "La fréquence de sortie doit être inférieure ou égale à la moitié de la fréquence d'entrée, utilisez un modèle différent." severity failure;
-    
+    assert freq_in >= 2 * freq_out
+        report "La fréquence de sortie doit être inférieure ou égale à la moitié de la fréquence d'entrée, utilisez un modèle différent." severity failure;
     
     process(clk_in)
     constant compte_max : natural := freq_in / freq_out / 2;

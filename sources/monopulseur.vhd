@@ -4,7 +4,7 @@
 --
 -- v. 1.0, 2021/01/19, Pierre Langlois
 -- Inspiré de beaucoup trop de sources pour toutes les citer, mais incluant https://vhdlguru.blogspot.com/2017/09/pushbutton-debounce-circuit-in-vhdl.html.
--- Pour un traitement intéressant de la question, incluant un grand nombre de référence, on peut consulter la suite de Maxfield dans l'EE Journal, janvier 2020 :
+-- Pour un traitement intéressant de la question, incluant un grand nombre de références, on peut consulter la suite de Maxfield dans l'EE Journal, janvier 2020 :
 -- https://www.eejournal.com/article/ultimate-guide-to-switch-debounce-part-1/
 --
 -- Gestion des rebonds des commutateurs activés par un humain et génération de mono-impulsion.
@@ -28,7 +28,6 @@
 -- Pour une horloge de 100 Hz (période 10 ms), un cycle cyle d'horloge suffit pour duree_rebond.
 --
 --
--- TODO : double tampon pour contrer la métastabilité
 -- TODO : généraliser pour un vecteur de boutons.
 --
 ---------------------------------------------------------------------------------------------------
@@ -57,11 +56,9 @@ end monopulseur;
 
 architecture arch of monopulseur is
 
-type etat_type is (attend_action, action_recue, stabilisation_action, attend_relache, relache_recue, stabilisation_relache);
-signal etat : etat_type := attend_action;
-
-signal bouton_1, bouton_2 : std_logic;
-
+    type etat_type is (attend_action, action_recue, stabilisation_action, attend_relache, relache_recue, stabilisation_relache);
+    signal etat : etat_type := attend_action;
+    signal bouton_1, bouton_2 : std_logic;
 
 begin
     
@@ -74,7 +71,6 @@ begin
         end if;
     end process;
     
-    
     with etat select
     impulsion_debut <=
         polarite_sortie_active when action_recue,
@@ -85,7 +81,7 @@ begin
         polarite_sortie_active when relache_recue,
         not(polarite_sortie_active) when others;
 
-
+    -- séquence des états
     process(all)
     variable compteur : natural range 0 to duree_rebond;
     begin
@@ -122,10 +118,11 @@ begin
 end arch;
 
 
-
 ---------------------------------------------------------------------------------------------------
 -- 
 -- banc d'essai
+--
+-- v. 1.0, 2021-01-22, bien imparfaite et très incomplète
 --
 ---------------------------------------------------------------------------------------------------
 
@@ -143,12 +140,12 @@ end monopulseur_tb;
 
 architecture arch of monopulseur_tb is
 
-signal clk : STD_LOGIC := '0';
-signal bouton : std_logic;
-signal impulsion_debut : std_logic;
-signal impulsion_fin : std_logic;
-
-constant periode : time := 10 ms; -- horloge de 100 Hz
+    signal clk : STD_LOGIC := '0';
+    signal bouton : std_logic;
+    signal impulsion_debut : std_logic;
+    signal impulsion_fin : std_logic;
+    
+    constant periode : time := 10 ms; -- horloge de 100 Hz
 
 begin
 
@@ -167,9 +164,4 @@ begin
         '0' after 0 ns, '1' after 11.7 ms, '0' after 24.7 ms, '1' after 34.7 ms, '0' after 44.7 ms, '1' after 57.7 ms,
         '0' after 102 ms, '1' after 115 ms, '0' after 125 ms, '1' after 135 ms, '0' after 145 ms;
     
-
 end arch;
-
-
-
-

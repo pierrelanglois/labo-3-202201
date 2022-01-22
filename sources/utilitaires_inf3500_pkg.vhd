@@ -39,6 +39,7 @@ package utilitaires_inf3500_pkg is
     function hex_to_7seg(chiffre_hex: quartet) return segments;
     function hex_to_7seg(chiffre_hex: quartet_signed) return segments;
     function hex_to_7seg(chiffre_hex: quartet_unsigned) return segments;
+
     function BCD_to_7seg(chiffre_bcd: BCD) return segments;
     
     function unsigned_to_BCD(nombre : unsigned(9 downto 0)) return BCD3;
