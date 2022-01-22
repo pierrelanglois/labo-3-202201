@@ -58,7 +58,7 @@ Les fichiers suivants sont  fournis pour aider à contrôler les interfaces de l
 
 ### La machine à états et son code VHDL
 
-Une machine à états de base vous est fournie dans le fichier [cadenas_labo_3.vhd](sources/cadenas_labo_3.vhd]). La machine à états de base correspond au diagramme d'états suivant.
+Une machine à états de base vous est fournie dans le fichier [cadenas_labo_3.vhd](sources/cadenas_labo_3.vhd). La machine à états de base correspond au diagramme d'états suivant.
 
 ![machine à états de base](figures/machine_etats_de_base.svg)
 
