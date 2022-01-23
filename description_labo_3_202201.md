@@ -156,7 +156,7 @@ Faites la synthèse et l'implémentez votre cadenas modifié. Vérifiez-en le fo
 
 ### 3a. Mode obfusqué
 
-Dans les spécifications des parties 1 et 2, une utilisatrice astucieuse pourrait deviner la combinaison en essayant successivement tous les boutons et en observant la séquence des états. (Si le cadenas retourne à l'état initial, c'est nécessairement parce qu'on a appuyé sur le mauvais bouton.) Pour cette partie, ajoutez un mode de fonctionnement obfusqué activé par une valeur de "01" sur le port `mode` (le fonctionnement normal des parties 1 et 2 doit se faire quand le port `mode` a les autres valeurs.) Le porte `mode` est relié à deux commutateurs de la planchette - consultez le fichier [top_labo_3.vhd](sources/top_labo_3.vhd).
+Dans les spécifications des parties 1 et 2, une utilisatrice astucieuse pourrait deviner la combinaison en essayant successivement tous les boutons et en observant la séquence des états. (Si le cadenas retourne à l'état initial, c'est nécessairement parce qu'on a appuyé sur le mauvais bouton.) Pour cette partie, ajoutez un mode de fonctionnement obfusqué activé par une valeur de "01" sur le port `mode` (le fonctionnement normal des parties 1 et 2 doit se faire quand le port `mode` a les valeurs "00", "10" ou "11".) Le porte `mode` est relié à deux commutateurs de la planchette - consultez le fichier [top_labo_3.vhd](sources/top_labo_3.vhd).
 
 Ajoutez les spécifications suivantes à votre machine :
 - La machine doit emmagasiner une séquence complète de 5 boutons appuyés avant de vérifier si la combinaison correcte a été entrée. La machine ne doit pas retourner à l'état initial tant que 5 boutons n'ont pas été appuyés les uns après les autres.
@@ -168,7 +168,7 @@ Expliquez tous vos changements dans votre rapport.
 
 ### 3b. Alarme pour essais incorrects multiples
 
-Si une utilisatrice entre un code incorrect à trois reprises, le port `alarme` doit être activé et l'affichage doit indiquer "alrm".
+Si une utilisatrice entre un code incorrect à trois reprises, le port `alarme` doit être activé et l'affichage doit indiquer "alrm". La machine doit rester dans cet état jusqu'à ce que le bouton `reset` soit appuyé.
 
 Expliquez tous vos changements dans votre rapport.
 
@@ -189,7 +189,7 @@ Le barème de correction est progressif. Il est relativement facile d'obtenir un
 
 Critères | Points
 -------- | ------
-Partie 1 : Spécification de base | 8
+Partie 1 : Spécifications de base | 8
 Partie 2 : Spécifications avancées | 7
 Qualité, lisibilité et élégance du code : alignement, choix des identificateurs, qualité et pertinence des commentaires, respect des consignes de remise incluant les noms des fichiers, orthographe, etc. | 2
 **Pleine réussite du labo** | **17**
